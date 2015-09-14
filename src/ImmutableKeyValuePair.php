@@ -4,7 +4,7 @@ namespace Chadicus\Spl\DataStructures;
 /**
  * Defines an immutable key/value pair.
  */
-class KeyValuePair
+final class ImmutableKeyValuePair implements KeyValuePairInterface
 {
     /**
      * The key in the key/value pair.
@@ -50,31 +50,5 @@ class KeyValuePair
     public function getValue()
     {
         return $this->value;
-    }
-
-    /**
-     * Sets the key in the key/value pair.
-     *
-     * @param mixed $key The new key.
-     *
-     * @return KeyValuePair
-     */
-    public function setKey($key)
-    {
-        $this->key = $key;
-        return $this;
-    }
-
-    /**
-     * Sets the value in the key/value pair.
-     *
-     * @param mixed $value The new value.
-     *
-     * @return mixed
-     */
-    public function setValue($value)
-    {
-        $this->value = $value;
-        return $this;
     }
 }
