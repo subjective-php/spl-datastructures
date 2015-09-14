@@ -2,7 +2,7 @@
 
 namespace Chadicus\Spl\DataStructures;
 
-class Bag implements CollectionInterface, \JsonSerializable
+final class Bag implements CollectionInterface, \JsonSerializable
 {
     /**
      * @var array
