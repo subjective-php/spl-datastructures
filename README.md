@@ -9,7 +9,7 @@
 
 [![Dependency Status](https://www.versioneye.com/user/projects/55fabdfc3ed8940017000f6f/badge.svg?style=flat)](https://www.versioneye.com/user/projects/55fabdfc3ed8940017000f6f)
 
-[![Documentation](https://img.shields.io/badge/reference-phpdoc-blue.svg?style=flat)](http://chadicus.github.io/spl-datastructures-php)
+[![Documentation](https://img.shields.io/badge/reference-phpdoc-blue.svg?style=flat)](http://pholio.herokuapp.com/chadicus/spl-datastructures)
 
 A set of standard datastructures.
 
