@@ -1,6 +1,6 @@
 #Chadicus\Spl\DataStructures
 [![Build Status](https://travis-ci.org/chadicus/spl-datastructures-php.svg?branch=master)](https://travis-ci.org/chadicus/spl-datastructures-php)
-[![Code Quality](https://scrutinizer-ci.com/g/chadicus/spl-datastructures-php/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/chadicus/spl-datastructures-php/?branch=master)
+[![Code Quality](http://img.shields.io/scrutinizer/g/chadicus/spl-datastructures-php.svg?style=flat)](https://scrutinizer-ci.com/g/chadicus/spl-datastructures-php/)
 [![Coverage Status](https://coveralls.io/repos/chadicus/spl-datastructures-php/badge.svg?branch=master&service=github)](https://coveralls.io/github/chadicus/spl-datastructures-php?branch=master)
 
 [![Latest Stable Version](http://img.shields.io/packagist/v/chadicus/spl-datastructures.svg?style=flat)](https://packagist.org/packages/chadicus/spl-datastructures)
