@@ -2,9 +2,13 @@
 [![Build Status](http://img.shields.io/travis/chadicus/spl-datastructures-php.svg?style=flat)](https://travis-ci.org/chadicus/spl-datastructures-php)
 [![Code Quality](http://img.shields.io/scrutinizer/g/chadicus/spl-datastructures-php.svg?style=flat)](https://scrutinizer-ci.com/g/chadicus/spl-datastructures-php/)
 [![Code Coverage](http://img.shields.io/coveralls/chadicus/spl-datastructures-php.svg?style=flat)](https://coveralls.io/r/chadicus/spl-datastructures-php)
+
 [![Latest Stable Version](http://img.shields.io/packagist/v/chadicus/spl-datastructures.svg?style=flat)](https://packagist.org/packages/chadicus/spl-datastructures)
 [![Total Downloads](http://img.shields.io/packagist/dt/chadicus/spl-datastructures.svg?style=flat)](https://packagist.org/packages/chadicus/spl-datastructures)
 [![License](http://img.shields.io/packagist/l/chadicus/spl-datastructures.svg?style=flat)](https://packagist.org/packages/chadicus/spl-datastructures)
+
+[![Dependency Status](https://www.versioneye.com/user/projects/55fabdfc3ed8940017000f6f/badge.svg?style=flat)](https://www.versioneye.com/user/projects/55fabdfc3ed8940017000f6f)
+
 [![Documentation](https://img.shields.io/badge/reference-phpdoc-blue.svg?style=flat)](http://chadicus.github.io/spl-datastructures-php)
 
 A set of standard datastructures.
