@@ -51,4 +51,15 @@ final class ImmutableKeyValuePair implements KeyValuePairInterface
     {
         return $this->value;
     }
+
+    /**
+     * Ensures deep copy when cloning.
+     *
+     * @return void
+     */
+    public function __clone()
+    {
+        $this->key = is_object($this->key) ? clone $this->key : $this->key;
+        $this->value = is_object($this->value) ? clone $this->value : $this->value;
+    }
 }

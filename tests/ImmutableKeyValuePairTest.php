@@ -28,4 +28,24 @@ final class ImmutableKeyValuePairTest extends \PHPUnit_Framework_TestCase
         $this->assertSame($key, $pair->getKey());
         $this->assertSame($value, $pair->getValue());
     }
+
+    /**
+     * Verify basic behavior of __clone().
+     *
+     * @test
+     * @covers ::__clone
+     *
+     * @return void
+     */
+    public function cloneObject()
+    {
+        $key = new \DateTime();
+        $value = (object)['foo' => 'bar'];
+        $pair = new ImmutableKeyValuePair($key, $value);
+
+        $clone = clone $pair;
+
+        $this->assertNotSame($key, $clone->getKey());
+        $this->assertNotSame($value, $clone->getValue());
+    }
 }
