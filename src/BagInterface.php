@@ -2,6 +2,9 @@
 
 namespace Chadicus\Spl\DataStructures;
 
+/**
+ * Defines the interface for Bad data structures.
+ */
 interface BagInterface extends CollectionInterface
 {
     /**

@@ -2,6 +2,9 @@
 
 namespace Chadicus\Spl\DataStructures;
 
+/**
+ * Unordered bag collection.
+ */
 final class Bag implements BagInterface, \JsonSerializable
 {
     /**
@@ -107,6 +110,8 @@ final class Bag implements BagInterface, \JsonSerializable
 
     /**
      * @see \JsonSerializable::jsonSerialize()
+     *
+     * @return array
      */
     public function jsonSerialize()
     {
@@ -125,6 +130,8 @@ final class Bag implements BagInterface, \JsonSerializable
 
     /**
      * @see CollectionInterface::clear()
+     *
+     * @return Bag
      */
     public function clear()
     {

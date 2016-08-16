@@ -8,9 +8,14 @@ namespace Chadicus\Spl\DataStructures;
 final class ImmutableArrayObject extends \ArrayObject
 {
     /**
-     * @see \ArrayObject::offsetSet
+     * @see \ArrayObject::offsetSet()
      *
-     * @throws \LogicException
+     * @param mixed $index  The index being set.
+     * @param mixed $newval The new value for the index.
+     *
+     * @return void
+     *
+     * @throws \LogicException Always thrown since object is immutable.
      */
     public function offsetSet($index, $newval)
     {
@@ -18,9 +23,13 @@ final class ImmutableArrayObject extends \ArrayObject
     }
 
     /**
-     * @see \ArrayObject::offsetUnset
+     * @see \ArrayObject::offsetUnset()
      *
-     * @throws \LogicException
+     * @param mixed $index The index being unset.
+     *
+     * @return void
+     *
+     * @throws \LogicException Always thrown since object is immutable.
      */
     public function offsetUnset($index)
     {
@@ -28,9 +37,13 @@ final class ImmutableArrayObject extends \ArrayObject
     }
 
     /**
-     * @see \ArrayObject::append
+     * @see \ArrayObject::append()
      *
-     * @throws \LogicException
+     * @param mixed $value The value being appended.
+     *
+     * @return void
+     *
+     * @throws \LogicException Always thrown since object is immutable.
      */
     public function append($value)
     {
@@ -38,9 +51,13 @@ final class ImmutableArrayObject extends \ArrayObject
     }
 
     /**
-     * @see \ArrayObject::exchangeArray
+     * @see \ArrayObject::exchangeArray()
      *
-     * @throws \LogicException
+     * @param mixed $array The new array or object to exchange with the current array.
+     *
+     * @return void
+     *
+     * @throws \LogicException Always thrown since object is immutable.
      */
     public function exchangeArray($array)
     {
@@ -50,7 +67,7 @@ final class ImmutableArrayObject extends \ArrayObject
     /**
      * Creates a new ImmutableArrayObject from the given mutable ArrayObject instance.
      *
-     * @param \ArrayObject The mutable array object.
+     * @param \ArrayObject $arrayObject The mutable array object.
      *
      * @return ImmutableArrayObject
      */

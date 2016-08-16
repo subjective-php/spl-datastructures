@@ -2,6 +2,9 @@
 
 namespace Chadicus\Spl\DataStructures;
 
+/**
+ * Iterface for collection objects.
+ */
 interface CollectionInterface extends \Iterator, \Countable
 {
     /**
