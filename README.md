@@ -1,13 +1,17 @@
 #Chadicus\Spl\DataStructures
+
 [![Build Status](https://travis-ci.org/chadicus/spl-datastructures-php.svg?branch=master)](https://travis-ci.org/chadicus/spl-datastructures-php)
-[![Code Quality](http://img.shields.io/scrutinizer/g/chadicus/spl-datastructures-php.svg?style=flat)](https://scrutinizer-ci.com/g/chadicus/spl-datastructures-php/)
-[![Coverage Status](https://coveralls.io/repos/chadicus/spl-datastructures-php/badge.svg?branch=master&service=github)](https://coveralls.io/github/chadicus/spl-datastructures-php?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/chadicus/spl-datastructures-php/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/chadicus/spl-datastructures-php/?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/chadicus/spl-datastructures-php/badge.svg?branch=master)](https://coveralls.io/github/chadicus/spl-datastructures-php?branch=master)
+[![Dependency Status](https://www.versioneye.com/user/projects/55fab8013ed8940014000f5e/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/55fab8013ed8940014000f5e)
 
-[![Latest Stable Version](http://img.shields.io/packagist/v/chadicus/spl-datastructures.svg?style=flat)](https://packagist.org/packages/chadicus/spl-datastructures)
-[![Total Downloads](http://img.shields.io/packagist/dt/chadicus/spl-datastructures.svg?style=flat)](https://packagist.org/packages/chadicus/spl-datastructures)
-[![License](http://img.shields.io/packagist/l/chadicus/spl-datastructures.svg?style=flat)](https://packagist.org/packages/chadicus/spl-datastructures)
+[![Latest Stable Version](https://poser.pugx.org/chadicus/spl-datastructures/v/stable)](https://packagist.org/packages/chadicus/spl-datastructures)
+[![Latest Unstable Version](https://poser.pugx.org/chadicus/spl-datastructures/v/unstable)](https://packagist.org/packages/chadicus/spl-datastructures)
+[![License](https://poser.pugx.org/chadicus/spl-datastructures/license)](https://packagist.org/packages/chadicus/spl-datastructures)
 
-[![Dependency Status](https://www.versioneye.com/user/projects/55fabdfc3ed8940017000f6f/badge.svg?style=flat)](https://www.versioneye.com/user/projects/55fabdfc3ed8940017000f6f)
+[![Total Downloads](https://poser.pugx.org/chadicus/spl-datastructures/downloads)](https://packagist.org/packages/chadicus/spl-datastructures)
+[![Daily Downloads](https://poser.pugx.org/chadicus/spl-datastructures/d/daily)](https://packagist.org/packages/chadicus/spl-datastructures)
+[![Monthly Downloads](https://poser.pugx.org/chadicus/spl-datastructures/d/monthly)](https://packagist.org/packages/chadicus/spl-datastructures)
 
 [![Documentation](https://img.shields.io/badge/reference-phpdoc-blue.svg?style=flat)](http://pholio.herokuapp.com/chadicus/spl-datastructures)
 
@@ -15,16 +19,16 @@ A set of standard datastructures.
 
 ## Requirements
 
-Chadicus\Spl\DataStructures requires PHP 5.4 (or later).
+Chadicus\Spl\DataStructures requires PHP 5.6 (or later).
 
 ##Composer
 To add the library as a local, per-project dependency use [Composer](http://getcomposer.org)! Simply add a dependency on
-`chadicus/filter` to your project's `composer.json` file such as:
+`chadicus/spl-datastructures` to your project's `composer.json` file such as:
 
 ```json
 {
     "require": {
-        "chadicus/spl-datastructures": "~1.0"
+        "chadicus/spl-datastructures": "^2.0"
     }
 }
 ```
