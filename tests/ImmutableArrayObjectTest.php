@@ -2,13 +2,14 @@
 namespace ChadicusTest\Spl\DataStructures;
 
 use Chadicus\Spl\DataStructures\ImmutableArrayObject;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Unit tests for the \Chadicus\Spl\DataStructures\ImmutableArrayObject class.
  *
  * @coversDefaultClass \Chadicus\Spl\DataStructures\ImmutableArrayObject
  */
-final class ImmutableArrayObjectTest extends \PHPUnit_Framework_TestCase
+final class ImmutableArrayObjectTest extends TestCase
 {
     /**
      * Verify basic behavior of createFromMutable().

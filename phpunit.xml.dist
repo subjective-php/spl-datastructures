@@ -1,6 +1,6 @@
 <phpunit colors="true" forceCoversAnnotation="true">
     <testsuites>
-        <testsuite name="Chadicus Spl DataStructures Test Suite">
+        <testsuite name="PHP Library Test Suite">
             <directory suffix="Test.php">tests</directory>
         </testsuite>
     </testsuites>

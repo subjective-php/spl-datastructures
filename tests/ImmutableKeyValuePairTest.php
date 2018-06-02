@@ -2,13 +2,14 @@
 namespace ChadicusTest\Spl\DataStructures;
 
 use Chadicus\Spl\DataStructures\ImmutableKeyValuePair;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Unit tests for the \Chadicus\Spl\DataStructures\ImmutableKeyValuePair class.
  *
  * @coversDefaultClass \Chadicus\Spl\DataStructures\ImmutableKeyValuePair
  */
-final class ImmutableKeyValuePairTest extends \PHPUnit_Framework_TestCase
+final class ImmutableKeyValuePairTest extends TestCase
 {
     /**
      * Verify basic behavior of ImmutableKeyValuePair class.
