@@ -1,6 +1,6 @@
 <?php
 
-namespace Chadicus\Spl\DataStructures;
+namespace SubjectivePHP\Spl\DataStructures;
 
 /**
  * This class behaves the same as ArrayObject disallowing modifications.

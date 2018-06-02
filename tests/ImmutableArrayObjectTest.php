@@ -1,13 +1,13 @@
 <?php
-namespace ChadicusTest\Spl\DataStructures;
+namespace SubjectivePHPTest\Spl\DataStructures;
 
-use Chadicus\Spl\DataStructures\ImmutableArrayObject;
+use SubjectivePHP\Spl\DataStructures\ImmutableArrayObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Unit tests for the \Chadicus\Spl\DataStructures\ImmutableArrayObject class.
+ * Unit tests for the \SubjectivePHP\Spl\DataStructures\ImmutableArrayObject class.
  *
- * @coversDefaultClass \Chadicus\Spl\DataStructures\ImmutableArrayObject
+ * @coversDefaultClass \SubjectivePHP\Spl\DataStructures\ImmutableArrayObject
  */
 final class ImmutableArrayObjectTest extends TestCase
 {
@@ -25,7 +25,7 @@ final class ImmutableArrayObjectTest extends TestCase
         $mutable = new \ArrayObject($data);
         $immutable = ImmutableArrayObject::createFromMutable($mutable);
 
-        $this->assertInstanceOf('\Chadicus\Spl\DataStructures\ImmutableArrayObject', $immutable);
+        $this->assertInstanceOf('\SubjectivePHP\Spl\DataStructures\ImmutableArrayObject', $immutable);
         $this->assertSame($mutable->getArrayCopy(), $immutable->getArrayCopy());
         $this->assertSame($mutable->getFlags(), $immutable->getFlags());
         $this->assertSame($mutable->getIteratorClass(), $immutable->getIteratorClass());

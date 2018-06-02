@@ -15,9 +15,9 @@
         "squizlabs/php_codesniffer": "^3.2"
     },
     "autoload": {
-        "psr-4": { "Chadicus\\Spl\\DataStructures\\": "src" }
+        "psr-4": { "SubjectivePHP\\Spl\\DataStructures\\": "src" }
     },
     "autoload-dev": {
-        "psr-4": { "ChadicusTest\\Spl\\DataStructures\\": "tests" }
+        "psr-4": { "SubjectivePHPTest\\Spl\\DataStructures\\": "tests" }
     }
 }

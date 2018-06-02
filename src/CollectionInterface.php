@@ -1,6 +1,6 @@
 <?php
 
-namespace Chadicus\Spl\DataStructures;
+namespace SubjectivePHP\Spl\DataStructures;
 
 /**
  * Iterface for collection objects.
