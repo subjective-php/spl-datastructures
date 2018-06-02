@@ -10,9 +10,9 @@
         "php": "^7.0"
     },
     "require-dev": {
+        "php-coveralls/php-coveralls": "^2.1",
         "phpunit/phpunit": "^5.0",
-        "chadicus/coding-standard": "^1.1",
-        "php-coveralls/php-coveralls": "^2.1"
+        "squizlabs/php_codesniffer": "^3.2"
     },
     "autoload": {
         "psr-4": { "Chadicus\\Spl\\DataStructures\\": "src" }

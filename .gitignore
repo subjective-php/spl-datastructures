@@ -3,3 +3,4 @@
 composer.lock
 clover.xml
 phploc.xml
+phpcs.xml
