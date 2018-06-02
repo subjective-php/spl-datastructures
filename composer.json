@@ -1,5 +1,5 @@
 {
-    "name": "chadicus/spl-datastructures",
+    "name": "subjective-php/spl-datastructures",
     "description": "A set of standard datastructures.",
     "keywords": ["spl", "datastructures"],
     "license": "MIT",
