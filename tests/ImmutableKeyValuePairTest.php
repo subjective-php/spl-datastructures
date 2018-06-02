@@ -1,13 +1,13 @@
 <?php
-namespace ChadicusTest\Spl\DataStructures;
+namespace SubjectivePHPTest\Spl\DataStructures;
 
-use Chadicus\Spl\DataStructures\ImmutableKeyValuePair;
+use SubjectivePHP\Spl\DataStructures\ImmutableKeyValuePair;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Unit tests for the \Chadicus\Spl\DataStructures\ImmutableKeyValuePair class.
+ * Unit tests for the \SubjectivePHP\Spl\DataStructures\ImmutableKeyValuePair class.
  *
- * @coversDefaultClass \Chadicus\Spl\DataStructures\ImmutableKeyValuePair
+ * @coversDefaultClass \SubjectivePHP\Spl\DataStructures\ImmutableKeyValuePair
  */
 final class ImmutableKeyValuePairTest extends TestCase
 {

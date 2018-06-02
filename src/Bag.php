@@ -1,6 +1,6 @@
 <?php
 
-namespace Chadicus\Spl\DataStructures;
+namespace SubjectivePHP\Spl\DataStructures;
 
 /**
  * Unordered bag collection.

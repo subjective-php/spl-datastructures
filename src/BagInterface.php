@@ -1,6 +1,6 @@
 <?php
 
-namespace Chadicus\Spl\DataStructures;
+namespace SubjectivePHP\Spl\DataStructures;
 
 /**
  * Defines the interface for Bad data structures.

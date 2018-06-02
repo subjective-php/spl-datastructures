@@ -1,13 +1,13 @@
 <?php
-namespace ChadicusTest\Spl\DataStructures;
+namespace SubjectivePHPTest\Spl\DataStructures;
 
-use Chadicus\Spl\DataStructures\Bag;
+use SubjectivePHP\Spl\DataStructures\Bag;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Unit tests for the \Chadicus\Spl\DataStructures\Bag class.
+ * Unit tests for the \SubjectivePHP\Spl\DataStructures\Bag class.
  *
- * @coversDefaultClass \Chadicus\Spl\DataStructures\Bag
+ * @coversDefaultClass \SubjectivePHP\Spl\DataStructures\Bag
  */
 final class BagTest extends TestCase
 {
@@ -16,7 +16,7 @@ final class BagTest extends TestCase
      *
      * @test
      * @covers ::add
-     * @uses \Chadicus\Spl\DataStructures\Bag::jsonSerialize
+     * @uses \SubjectivePHP\Spl\DataStructures\Bag::jsonSerialize
      *
      * @return void
      */
@@ -32,7 +32,7 @@ final class BagTest extends TestCase
      *
      * @test
      * @covers ::remove
-     * @uses \Chadicus\Spl\DataStructures\Bag
+     * @uses \SubjectivePHP\Spl\DataStructures\Bag
      *
      * @return void
      */
@@ -65,7 +65,7 @@ final class BagTest extends TestCase
      *
      * @test
      * @covers ::count
-     * @uses \Chadicus\Spl\DataStructures\Bag::add
+     * @uses \SubjectivePHP\Spl\DataStructures\Bag::add
      *
      * @return void
      */
@@ -83,7 +83,7 @@ final class BagTest extends TestCase
      *
      * @test
      * @covers ::isEmpty
-     * @uses \Chadicus\Spl\DataStructures\Bag::add
+     * @uses \SubjectivePHP\Spl\DataStructures\Bag::add
      *
      * @return void
      */
@@ -100,7 +100,7 @@ final class BagTest extends TestCase
      *
      * @test
      * @covers ::jsonSerialize
-     * @uses \Chadicus\Spl\DataStructures\Bag::add
+     * @uses \SubjectivePHP\Spl\DataStructures\Bag::add
      *
      * @return void
      */
@@ -120,7 +120,7 @@ final class BagTest extends TestCase
      * @covers ::key
      * @covers ::next
      * @covers ::valid
-     * @uses \Chadicus\Spl\DataStructures\Bag::add
+     * @uses \SubjectivePHP\Spl\DataStructures\Bag::add
      *
      * @return void
      */
@@ -138,7 +138,7 @@ final class BagTest extends TestCase
      *
      * @test
      * @covers ::clear
-     * @uses \Chadicus\Spl\DataStructures\Bag
+     * @uses \SubjectivePHP\Spl\DataStructures\Bag
      *
      * @return void
      */
