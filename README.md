@@ -12,7 +12,7 @@
 [![Daily Downloads](https://poser.pugx.org/subjective-php/spl-datastructures/d/daily)](https://packagist.org/packages/subjective-php/spl-datastructures)
 [![Monthly Downloads](https://poser.pugx.org/subjective-php/spl-datastructures/d/monthly)](https://packagist.org/packages/subjective-php/spl-datastructures)
 
-[![Documentation](https://img.shields.io/badge/reference-phpdoc-blue.svg?style=flat)](http://pholio.herokuapp.com/subjective-php/spl-datastructures)
+[![Documentation](https://img.shields.io/badge/reference-phpdoc-blue.svg?style=flat)](http://pholiophp.org/subjective-php/spl-datastructures)
 
 A set of standard datastructures.
 
