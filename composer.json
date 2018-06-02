@@ -3,6 +3,9 @@
     "description": "A set of standard datastructures.",
     "keywords": ["spl", "datastructures"],
     "license": "MIT",
+    "config": {
+        "sort-packages": true
+    },
     "require": {
         "php": "^7.0"
     },
