@@ -2,13 +2,14 @@
 namespace ChadicusTest\Spl\DataStructures;
 
 use Chadicus\Spl\DataStructures\Bag;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Unit tests for the \Chadicus\Spl\DataStructures\Bag class.
  *
  * @coversDefaultClass \Chadicus\Spl\DataStructures\Bag
  */
-final class BagTest extends \PHPUnit_Framework_TestCase
+final class BagTest extends TestCase
 {
     /**
      * Verify basic behavior of add().
