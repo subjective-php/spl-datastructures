@@ -22,9 +22,9 @@ final class Bag implements BagInterface, \JsonSerializable
      *
      * @param mixed $element The element to add.
      *
-     * @return Bag
+     * @return BagInterface
      */
-    public function add($element)
+    public function add($element) : BagInterface
     {
         array_unshift($this->elements, $element);
         shuffle($this->elements);
@@ -52,7 +52,7 @@ final class Bag implements BagInterface, \JsonSerializable
      *
      * @return boolean
      */
-    public function isEmpty()
+    public function isEmpty() : bool
     {
         return empty($this->elements);
     }
@@ -83,7 +83,7 @@ final class Bag implements BagInterface, \JsonSerializable
      *
      * @return integer
      */
-    public function key()
+    public function key() : int
     {
         return $this->position;
     }
@@ -103,7 +103,7 @@ final class Bag implements BagInterface, \JsonSerializable
      *
      * @return boolean
      */
-    public function valid()
+    public function valid() : bool
     {
         return isset($this->elements[$this->position]);
     }
@@ -113,7 +113,7 @@ final class Bag implements BagInterface, \JsonSerializable
      *
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize() : array
     {
         return $this->elements;
     }
@@ -123,7 +123,7 @@ final class Bag implements BagInterface, \JsonSerializable
      *
      * @return integer
      */
-    public function count()
+    public function count() : int
     {
         return count($this->elements);
     }
@@ -131,9 +131,9 @@ final class Bag implements BagInterface, \JsonSerializable
     /**
      * @see CollectionInterface::clear()
      *
-     * @return Bag
+     * @return CollectionInterface
      */
-    public function clear()
+    public function clear() : CollectionInterface
     {
         $this->elements = [];
         return $this;

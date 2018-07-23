@@ -12,12 +12,12 @@ interface CollectionInterface extends \Iterator, \Countable
      *
      * @return boolean
      */
-    public function isEmpty();
+    public function isEmpty() : bool;
 
     /**
      * Clears the collection of all elements.
      *
      * @return CollectionInterface
      */
-    public function clear();
+    public function clear() : CollectionInterface;
 }
