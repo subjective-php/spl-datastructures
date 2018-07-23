@@ -71,7 +71,7 @@ final class ImmutableArrayObject extends \ArrayObject
      *
      * @return ImmutableArrayObject
      */
-    public static function createFromMutable(\ArrayObject $arrayObject)
+    public static function createFromMutable(\ArrayObject $arrayObject) : ImmutableArrayObject
     {
         return new static($arrayObject->getArrayCopy(), $arrayObject->getFlags(), $arrayObject->getIteratorClass());
     }

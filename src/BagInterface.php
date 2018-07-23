@@ -12,9 +12,9 @@ interface BagInterface extends CollectionInterface
      *
      * @param mixed $element The element to add.
      *
-     * @return Bag
+     * @return BagInterface
      */
-    public function add($element);
+    public function add($element) : BagInterface;
 
     /**
      * Removes a random element from the bag.
